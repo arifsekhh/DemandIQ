@@ -1,0 +1,62 @@
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+joblib>=1.3.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+streamlit>=1.30.0
+plotly>=5.18.0
+requests>=2.31.0
+pydantic>=2.0.0
+
+# List of Python packages required
+
+# 1) DATA CRUNCHING AND WRANGLING 
+
+# line 1-2 [NumPy] handles heavy numerical math and array operations, while
+# [Pandas] structures our data into neat rows and columns (DataFrames)
+# so we can clean, filter and aggregate it easily.
+
+# 2) ML AND MODEL MANAGEMENT
+
+# line 3 [scikit-learn] provides classic ML algorithms (like regression,
+# classification, data splitters, feature encoders).
+
+# line 4 [xgboost] is an advanced gradient-boosting library widely used for
+# making highly accurate tabular predictions.
+
+# line 5 [joblib] saves our trained ML models to disk so we don't have to
+# re-train them every single time you start our program.
+
+# 3) BACKEND API & SERVER
+
+# line 6 [fastapi] Builds web APIs so user requests can talk directly to our
+# ML model and receive predictions back.
+
+# line 7 [uvicorn] the lightweight, lightning-fast web server that actually 
+# runs your FastAPI app in the background.
+
+# line 11 [pydantic] verifies that incoming API data is in the exact right
+# format and type (e.g. ensuring an age field is an integer, not a string)
+# before letting it pass to your app.
+
+# 4) USER INTERFACE & VISUALIZATION
+
+# line 8 [streamlit] turns Python scripts into interactive dashboard
+# websites with buttons, sliders, and input fields in just a few lines
+# of code.
+
+# line 9 [plotly] generates sleek, interactive data graphs (charts you can
+# hover over or zoom into) inside your Streamlit UI.
+
+# 5) WEB UTILITIES
+
+# line 10 [requests] allows your Python app to make HTTP requests to fetch 
+# data from external APIs or servers
+
+
+
+# [>=] sign means 'This project needs at least Version or any newer, updated
+# version to run smoothly without breaking.'
+ 
