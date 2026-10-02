@@ -1,43 +1,24 @@
-# Python cache & virtual environment
+# Windows system junk files
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# macOS system junk files
+.DS_Store
+
+# Python cache & compiled files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Virtual environments
 venv/
+env/
 .env
 
-# Large model artifacts (optional, keep small pkl in repo if <20MB)
-*.log
-
-# OS specific files
-.DS_Store
-Thumbs.db
+# VS Code / IDE settings
 .vscode/
 .idea/
 
-
-# .gitignore file basically tells not to upload these items.
-
-# line 2-4 (when Python runs the code, it creates temporary 
-# bytecode files to make the script run faster next time. These are auto
-# generated junk files that change everytime you run code.)
-
-# line 5 (A virtual environment folder containing all the heavy libraries
-# installed. Sharing this folder would make the project massive -hundreds
-# of mb. So, developers share a list of dependencies(requirements.txt) so 
-# others can install their own.)
-
-# line 6 (This file stores sensitive info passwords,keys,urls. Public.)
-
-# line 9 (Log files record every tiny action or error happens when
-# running the code. Constantly grow in size and clutter the codebase.)
-
-# line 12 (MAC)
-# line 13 (Windows)
-
-# These are hidden system files automatically created by your computer 
-# to show icons/folders properly. They have nothing to do with our code.
-
-# line 14-15 (These folders hold your personal code editor settings.)
-
-# helps to keep the repository light, clean, secure, and easy for others
-# to download by skipping temp files, heavy packages, secret passwords.)
+# Large log files
+*.log
